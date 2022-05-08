@@ -27,7 +27,7 @@ Simplifying the concept, PERPs work by paying funding from the less popular posi
 
 You may be thinking that this is not great because you need to short bitcoin, which is a bad trade, however you can arb this while maintaining the exposure that you want.
 
-If you have 100 USD, you can buy 50$ worth of BTC and open a 50x short. Then if bitcoin goes up your short will lose value but your BTC will gain the same amount in value, so your net gain/loss will be 0, therefore whatever happens your position is still equivalent to your intial 100$. However, because you are shorting bitcoin, now you are also collecting funding fees, thus earning a good APY on your USD.
+If you have 100 USD, you can buy 50$ worth of BTC and open a 50x short with $1 as collateral, meaning your total long and short position sizes are the same. Then if bitcoin goes up your short will lose value but your BTC will gain the same amount in value, so your net gain/loss will be 0, therefore whatever happens your position is still equivalent to your intial 100$. However, because you are shorting bitcoin, now you are also collecting funding fees, thus earning a good APY on your USD.
 
 This is not simple tho, you need to avoid getting liquidated and if the mark price moves against you and you sell, you'll realize a loss. This means that your money may be locked during some time and that this strategy is not well suited to have deposits/withdraws that are triggered by users (otherwise a user could make you lose money), so it can't be implemented on the vaults of traditional yield aggregators.
 
